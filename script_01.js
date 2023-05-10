@@ -3,22 +3,22 @@
 /*Entscheidungsstrukturen | control flow */
 
 // Deklaration + Assignment
-const ageJohn = 30;
-const ageMark = 30;
+// const ageJohn = 30;
+// const ageMark = 30;
 
-// Deklaration
-let isJohnOlder, isJohnEqual;
+// // Deklaration
+// let isJohnOlder, isJohnEqual;
 
-// Test | Logische Aussage 
-isJohnOlder = (ageJohn > ageMark);
-isJohnEqual = (ageJohn == ageMark);
+// // Test | Logische Aussage 
+// isJohnOlder = (ageJohn > ageMark);
+// isJohnEqual = (ageJohn == ageMark);
 
-// Ausgabe
-console.log("ageJohn: " + ageJohn);
-console.log("ageMark: " + ageMark);
-console.log("isJohnOlder: " + isJohnOlder);
-console.log("isJohnEqual: " + isJohnEqual);
-console.log("------------------");
+// // Ausgabe
+// console.log("ageJohn: " + ageJohn);
+// console.log("ageMark: " + ageMark);
+// console.log("isJohnOlder: " + isJohnOlder);
+// console.log("isJohnEqual: " + isJohnEqual);
+// console.log("------------------");
 
 /************ IF  ************/
 // TINA --> There is no alternative!
@@ -40,14 +40,38 @@ console.log("------------------");
 // if(true)
 // if(false)
 // if(isJohnOlder)
-if(ageJohn > ageMark)
-{
-    console.log("John ist älter."); 
-} 
-else 
-{
-    console.log("John ist jünger."); 
-}
+// if(ageJohn > ageMark)
+// {
+//     console.log("John ist älter."); 
+// } 
+// else 
+// {
+//     console.log("John ist jünger."); 
+// }
+
+/************  Ternäre (ternary) Schreibweise ************/
+// console.log( (isJohnOlder) ? "John is older" : "Mark is older");
+
+/************ IF - ELSE IF  ************/
+// mit alternativen Fällen (älter, gleich alt, jünger)
+
+// if(isJohnOlder)   // 1. Test
+// {
+//     console.log("John ist älter.");  // 1 --> n Alternative
+// } 
+// else if(isJohnEqual)
+// {
+//     console.log("John ist gleich alt."); 
+//     // wenn alle vorherigen Tests fehlschlafen ...
+// }
+// else 
+// {
+//     console.log("John ist jünger."); 
+// }
+
+
+
+
 
 
 
